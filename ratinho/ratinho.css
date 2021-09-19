@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Prompt:wght@200;300;400;600;700;800;900&display=swap');
+/*font-family: 'Architects Daughter', cursive;
+font-family: 'Prompt', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+body {
+    background-color: #181818;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+
+}
+.soundboard {
+    background-color: #313030;
+    max-width: 1100px;
+    margin-top: 10px;
+    border-radius: .7rem;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.soundboard div {
+    background-color: #353c46;
+    width: 180px;
+    height: 180px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.soundboard div p {
+    cursor: pointer;
+}
+.active{
+    box-shadow: inset 0px 0px 0px 5px #1357af; 
+}
